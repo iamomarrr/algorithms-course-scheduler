@@ -36,6 +36,7 @@ tests.exe
 courses.exe < testdata\sample.in
 courses.exe < testdata\empty.in
 courses.exe < testdata\ties.in
+courses.exe < testdata\sample.in > actual.out
 ```
 
 The program reads standard input and writes standard output.
